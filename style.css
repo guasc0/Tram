@@ -1,3 +1,9 @@
 body {
   background-color: black;
 }
+
+.header {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
