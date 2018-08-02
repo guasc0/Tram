@@ -1,8 +1,14 @@
-var x = 10;
+$(document).ready(function(){
+  $('table').hide();
 
-console.log(x);
+  $("#search-button").on("click", function(){
+    $("table").show();
+    //alert("Haj");
+    var station = document.getElementById("input").value;
+    console.log(station)
+    station = station.toUpperCase()
+    document.getElementById("station").innerHTML = station;
+    document.getElementById("input").value = "";
+  })
 
-
-function tesst() {
-    alert("Haj");
-}
+})

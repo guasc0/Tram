@@ -28,8 +28,12 @@ div.container {
 
 .tram-table {
   width: 65% !important;
-  margin-top: 100px !important;
-  margin-left: 17% !important;
+  margin-top: 40px !important;
+  margin-left: 18% !important;
+}
+
+table, td, th ,tr {
+  border: 2px solid #675e5e !important;
 }
 
 .baj {
@@ -40,4 +44,18 @@ div.container {
 .hej {
   background-color: red !important;
   width: 30px !important;
+}
+
+#station, .tore {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: auto;
+  color: white;
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+}
+
+.wagon {
+  text-align: center;
 }
