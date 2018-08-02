@@ -8,7 +8,7 @@ body {
   font-size: 25px;
   text-align: center;
 }
-#wrapper {
+div.container {
   margin-top: 50px;
 }
 .station-search-field {
@@ -24,4 +24,20 @@ body {
   height: 38px !important;
   width: 80px;
   float: right;
+}
+
+.tram-table {
+  width: 65% !important;
+  margin-top: 100px !important;
+  margin-left: 17% !important;
+}
+
+.baj {
+  background-color: green !important;
+  width: 30px !important;
+}
+
+.hej {
+  background-color: red !important;
+  width: 30px !important;
 }

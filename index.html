@@ -13,20 +13,59 @@
 </head>
 
 <body>
-  <div class="header">
+  <div id="wrapper" class="header">
     <h1>Nästa åk<h1>
     </div>
 
-    <div id="wrapper">
+    <div class="container">
     <div class="station-search-field">
       <div class="station-adress-input">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Hållplats" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <input type="text" id="input" class="form-control" placeholder="Hållplats" aria-label="Recipient's username" aria-describedby="button-addon2">
         </div>
       </div>
       <button type="button" class="btn btn-primary btn-sm search-button" onclick="tesst()">Sök</button>
     </div>
   </div>
+
+  <table class="table table-dark tram-table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Vagn</th>
+      <th scope="col">Destination</th>
+      <th scope="col">Avgång</th>
+      <th scope="col">Nästa avgång</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="hej">5</th>
+      <td>Östra sjukhuset</td>
+      <td>2</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Högsbotorp</td>
+      <td>3</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th scope="row">17</th>
+      <td>Boda borg</td>
+      <td>3</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th scope="row" class="baj">4</th>
+      <td>Mölndal</td>
+      <td>1</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+
+
     <script src="../Tram/script.js"></script>
     <script src="../Tram/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
