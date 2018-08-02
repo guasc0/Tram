@@ -59,3 +59,9 @@ table, td, th ,tr {
 .wagon {
   text-align: center;
 }
+
+td.img {
+  width: 50px;
+  background-color: white;
+  vertical-align: center;
+}
